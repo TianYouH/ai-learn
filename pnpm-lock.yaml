@@ -23,6 +23,9 @@ importers:
       openai:
         specifier: ^6.38.0
         version: 6.39.1(zod@4.4.3)
+      zod:
+        specifier: ^4.4.3
+        version: 4.4.3
 
 packages:
 
