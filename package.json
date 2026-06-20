@@ -1,0 +1,26 @@
+{
+  "name": "deepseek-api-example",
+  "version": "1.0.0",
+  "description": "Node.js 调用 DeepSeek API 的示例项目",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "deepseek",
+    "api",
+    "ai",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^1.1.48",
+    "@langchain/deepseek": "^1.0.27",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.4.2",
+    "openai": "^6.38.0"
+  }
+}
