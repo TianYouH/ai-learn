@@ -11,13 +11,16 @@ ai-learn/
 ├── index.js              # 基础 API 调用示例（流式输出）
 ├── test.js               # Reasoner 模型测试示例
 ├── package.json          # 项目依赖配置
-├── wt.text               # 项目说明文档
+├── README.md             # 项目说明文档
+├── wt.text               # 项目需求说明
 ├── langchain-learning/
 │   └── simple-llm-app.js # LangChain 简单应用示例
 └── src/
-    ├── server.js         # HTTP 服务器（SSE 流式接口）
-    ├── chat.html         # 聊天页面前端
-    └── few-shot-learning.js # Few-shot Learning 示例
+    ├── server.js              # HTTP 服务器（SSE 流式接口）
+    ├── chat.html              # 聊天页面前端
+    ├── few-shot-learning.js   # Few-shot Learning 示例
+    ├── structure-output.js    # 结构化输出示例（Zod）
+    └── sentiment-analysis.js  # 情感分析示例
 ```
 
 ## 文件说明
@@ -128,6 +131,8 @@ const response = await model.invoke('Hello');
 - ✅ 支持 SSE 流式输出
 - ✅ Reasoner 模型推理示例
 - ✅ Few-shot Learning 示例
+- ✅ 结构化输出（withStructuredOutput + Zod）
+- ✅ 情感分析示例
 - ✅ Web 服务接口（HTTP + SSE）
 - ✅ 简单的聊天界面
 
